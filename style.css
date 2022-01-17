@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300&family=Montserrat&family=Roboto+Condensed:wght@300;400&family=Roboto+Slab:wght@400;600&family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+}
+body {
+  background-color: rgb(252, 249, 238);
+  min-height: 100%;
+  width: 100vw;
+}
+header {
+  background: url("https://www.jomalone.com/media/export/cms/campaigns/Silver_Birch_Lavender/Homepage/22F04_SBL_1_Homepage_Hero_Desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+nav {
+  padding-top: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 60px;
+  /* padding: 100px 30px; */
+}
+.logo {
+  text-align: center;
+  color: whitesmoke;
+}
+h4 {
+  font-size: 20px;
+}
+a {
+  /* text-decoration: none; */
+  color: black;
+}
+.red {
+  display: flex;
+  text-align: center;
+  margin: 100px;
+  justify-content: center;
+}
+.red-perfume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .red-img {
+  width: 75%;
+  height: 75%;
+} */
+.red-right {
+  margin-right: 300px;
+}
+.candles {
+  text-align: center;
+}
+.candles-img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.scents {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+.scent-right-img,
+.scent-left-img {
+  width: 600px;
+  height: 600px;
+  margin: 100px 100px 20px 100px;
+}
+.fragrances {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
