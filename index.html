@@ -9,18 +9,41 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="shop.html">Shop</a>
-        <a href="">Gifting</a>
-        <a href="#">Stores</a>
-        <a href="">Our House</a>
-        <h1 class="logo">
-          Jo Malone <br />
-          London
-        </h1>
-      </nav>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">
+            Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="shop.html">All</a>
+            <a href="#">Bestsellers</a>
+            <a href="#">Colognes</a>
+            <a href="#">Home Essentials</a>
+            <a href="#">Bath and Body</a>
+          </div>
+        </div>
+        <a href="#home">Gifting</a>
+        <a href="#news">Stores</a>
+        <a href="#news">Our House</a>
+      </div>
+      <h2 id="logo">
+        JO MALONE <br />
+        LONDON
+      </h2>
+
+      <h1 id="headerName">Silver Birch & Lavender</h1>
     </header>
     <main>
+      <div class="welcome-text">
+        <h3>Our Foundations</h3>
+        <p>
+          The key ingredients at the heart of the House of Jo Malone London.
+          <br />
+          Discover more about our home, heritage, our approach to fragrance and
+          the charities we support.
+        </p>
+      </div>
       <div class="red">
         <div class="red-perfume">
           <img
@@ -78,6 +101,44 @@
         <a href="">SHOP NOW</a>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <div class="customer-service">
+          <h5>CUSTOMER SERVICE</h5>
+          <a href="">FAQ</a>
+          <a href="">Contact Us</a>
+          <a href="">My Profile</a>
+          <a href="">My Order</a>
+          <a href="">Shipping</a>
+          <a href="">Returns & Exchanges</a>
+        </div>
+        <div class="visit">
+          <h5>VISIT & EXPLORE</h5>
+          <a href="">Store Locator</a>
+          <a href="">Book a Service</a>
+          <a href="">Scnets</a>
+          <a href="">Virtual Consultations</a>
+          <a href="">Stories</a>
+        </div>
+        <div class="our-company">
+          <h5>OUR COMPANY</h5>
+          <a href="">Corporate Info</a>
+          <a href="">Corporate Gifting</a>
+          <a href="">Careers</a>
+        </div>
+        <div class="social">
+          <h5>SOCIAL</h5>
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">Pinterest</a>
+          <a href="">Twitter</a>
+          <a href="">Youtube</a>
+        </div>
+      </div>
+      <form action="">
+        <h3>Sign Up</h3>
+        <input type="email" placeholder="Email Adress" />
+      </form>
+    </footer>
   </body>
 </html>

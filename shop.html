@@ -9,21 +9,34 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="shop.html">Shop</a>
-        <a href="">Gifting</a>
-        <a href="#">Stores</a>
-        <a href="">Our House</a>
-        <h1 class="logo">
-          Jo Malone <br />
-          London
-        </h1>
-      </nav>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">
+            Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="shop.html">All</a>
+            <a href="#">Bestsellers</a>
+            <a href="#">Colognes</a>
+            <a href="#">Home Essentials</a>
+            <a href="#">Bath and Body</a>
+          </div>
+        </div>
+        <a href="#home">Gifting</a>
+        <a href="#news">Stores</a>
+        <a href="#news">Our House</a>
+      </div>
+      <h1 id="logo">
+        JO MALONE <br />
+        LONDON
+      </h1>
     </header>
     <main>
-      <h1 class="categoryName">Category Name</h1>
+      <h1 class="categoryName"></h1>
+      <p class="categoryText"></p>
       <div class="btns">
-        <button class="btn all" data-id="all">All</button>
+        <button class="btn all active" data-id="all">All</button>
         <button class="btn besteller" data-id="bestseller">Bestsellers</button>
         <button class="btn perfume" data-id="cologne">Perfume</button>
         <button class="btn home" data-id="home essentials">
@@ -41,6 +54,45 @@
         </div> -->
       </div>
     </main>
+    <footer>
+      <div class="footer-content">
+        <div class="customer-service">
+          <h5>CUSTOMER SERVICE</h5>
+          <a href="">FAQ</a>
+          <a href="">Contact Us</a>
+          <a href="">My Profile</a>
+          <a href="">My Order</a>
+          <a href="">Shipping</a>
+          <a href="">Returns & Exchanges</a>
+        </div>
+        <div class="visit">
+          <h5>VISIT & EXPLORE</h5>
+          <a href="">Store Locator</a>
+          <a href="">Book a Service</a>
+          <a href="">Scnets</a>
+          <a href="">Virtual Consultations</a>
+          <a href="">Stories</a>
+        </div>
+        <div class="our-company">
+          <h5>OUR COMPANY</h5>
+          <a href="">Corporate Info</a>
+          <a href="">Corporate Gifting</a>
+          <a href="">Careers</a>
+        </div>
+        <div class="social">
+          <h5>SOCIAL</h5>
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">Pinterest</a>
+          <a href="">Twitter</a>
+          <a href="">Youtube</a>
+        </div>
+      </div>
+      <form action="">
+        <h3>Sign Up</h3>
+        <input type="email" placeholder="Email Adress" />
+      </form>
+    </footer>
 
     <script type="module" src="script.js"></script>
   </body>
