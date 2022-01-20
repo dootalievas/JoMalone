@@ -4,11 +4,7 @@ const alldata = data();
 const buttons = document.querySelectorAll(".btn");
 const categoryName = document.querySelector(".categoryName");
 const categoryText = document.querySelector(".categoryText");
-
-const acvtiveBtn = () => {
-  buttons.forEach((btn) => btn.classList.remove("active"));
-  this.classList.add("active");
-};
+const addToCartbtns = document.querySelectorAll(".addToCart");
 
 const showProducts = (array) => {
   categoryName.textContent = "All Products";
@@ -22,34 +18,11 @@ const showProducts = (array) => {
     <h3 class="name">${el.productName}</h3>
     <p class= "price">${el.price}</p>
     <p class ="size">${el.size}</p>
+    <button class='addToCart'> Add to Cart</button>
     
   `;
     div.className = "card";
     container.appendChild(div);
-
-    // const img = document.createElement("img");
-    // const productName = document.createElement("h3");
-    // const price = document.createElement("p");
-    // const size = document.createElement("p");
-
-    // img.className = "productImg";
-    // productName.className = "name";
-    // price.className = "price";
-    // size.className = "size";
-
-    // price.innerHTML = el.price;
-    // size.innerHTML = el.size;
-    // productName.innerHTML = el.productName;
-    // img.src = el.image;
-
-    // div.appendChild(img);
-    // div.appendChild(productName);
-    // div.appendChild(price);
-    // div.appendChild(size);
-
-    // console.log(price, "the price");
-    // console.log(productName, "the name");
-    // console.log(img, "the images");
   }
 };
 showProducts(alldata);
