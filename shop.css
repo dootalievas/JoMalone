@@ -91,6 +91,13 @@ main {
 .cart {
   margin-left: 70%;
 }
+.cart-content {
+  box-sizing: border-box;
+  height: 100%;
+}
+.cart-container {
+  text-align: center;
+}
 #logo {
   text-align: center;
   color: black;
