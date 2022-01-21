@@ -97,6 +97,7 @@ main {
 }
 .cart-container {
   text-align: center;
+  border: 1px solid black;
 }
 #logo {
   text-align: center;
@@ -171,14 +172,7 @@ main {
   background-color: black; /* Green */
   color: white;
 }
-.btnAdd {
-  background-color: rgb(252, 249, 238);
-  padding: 5px;
-  font-size: 15px;
-  border-radius: 5px;
-  border: black solid 0.5px;
-  cursor: pointer;
-}
+
 footer {
   background-color: white;
   display: flex;
@@ -211,4 +205,29 @@ input {
   width: 150px;
   border: none;
   border-bottom: solid black;
+}
+.fas {
+  background-color: rgb(252, 249, 238);
+  border: none;
+}
+.addToCart,
+.checkout {
+  background-color: rgb(252, 249, 238);
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: black solid 0.5px;
+  cursor: pointer;
+}
+.subtotal {
+  font-size: 20px;
+}
+.cart-card {
+  box-sizing: border-box;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: auto;
 }
