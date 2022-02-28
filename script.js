@@ -13,7 +13,7 @@ const showProducts = (alldata) => {
     "Discover our new arrivals, collection highlights, the scents we love and more from the House of Jo Malone London.";
   for (let el of alldata) {
     const div = document.createElement("div");
-    div.innerHTML += `
+    div.innerHTML = `
     <img src="${el.image}" alt="" class="productImg" />
     <span class ="span">${el.sale === "bestseller" ? " BESTSELLER " : ""}</span>
     <h3 class="name">${el.productName}</h3>
@@ -111,6 +111,7 @@ function renderCartSubtotal() {
 //renderCartItems function
 
 function renderCartItems() {
+  cartItemsEl.innerHTML = "";
   cart.forEach((item) => {
     const div = document.createElement("div");
     div.innerHTML = `
